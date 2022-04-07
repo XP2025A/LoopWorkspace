@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Xcode@5
   inputs:
-    actions: 'test'
+    actions: 'debug'
     scheme: 'Loop (Workspace)'
     sdk: ''
     configuration: 'Release'

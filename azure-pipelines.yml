@@ -14,7 +14,7 @@ steps:
   inputs:
     actions: 'test'
     scheme: 'Loop (Workspace)'
-    sdk: 'iphoneos'
+    sdk: ''
     configuration: 'Release'
     xcWorkspacePath: '**/Loop.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath

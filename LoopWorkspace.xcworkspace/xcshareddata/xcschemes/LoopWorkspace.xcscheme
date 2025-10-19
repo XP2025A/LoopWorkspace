@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1330"
+   LastUpgradeVersion = "1500"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "YES"
+      parallelizeBuildables = "NO"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5085266D1E52FDC000D611F4"
-               BuildableName = "MKRingProgressView.framework"
-               BlueprintName = "MKRingProgressView"
-               ReferencedContainer = "container:MKRingProgressView/MKRingProgressView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06405DA51B8AA74700A689FF"
-               BuildableName = "SwiftCharts.framework"
-               BlueprintName = "SwiftCharts"
-               ReferencedContainer = "container:SwiftCharts/SwiftCharts.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -60,20 +32,6 @@
                BuildableName = "LoopKit.framework"
                BlueprintName = "LoopKit-watchOS"
                ReferencedContainer = "container:LoopKit/LoopKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8687AEE71C66F322005D9419"
-               BuildableName = "Minizip.framework"
-               BlueprintName = "Minizip-iOS"
-               ReferencedContainer = "container:Minizip/Minizip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -140,20 +98,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "12C972CA24105C3600E9CDDB"
-               BuildableName = "Amplitude.framework"
-               BlueprintName = "Amplitude_iOS"
-               ReferencedContainer = "container:Amplitude-iOS/Amplitude.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9FC98DB2333EFE10010CBD2"
                BuildableName = "AmplitudeServiceKitPlugin.loopplugin"
                BlueprintName = "AmplitudeServiceKitPlugin"
@@ -168,38 +112,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43C246921D8918AE0031F8D1"
-               BuildableName = "Crypto.framework"
-               BlueprintName = "Crypto"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C136AA5D231187B0008A320D"
-               BuildableName = "MinimedKitPlugin.loopplugin"
-               BlueprintName = "MinimedKitPlugin"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1B3830A1CD0665D00CE7782"
-               BuildableName = "NightscoutUploadKit.framework"
-               BlueprintName = "NightscoutUploadKit"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
+               BlueprintIdentifier = "849523B52A25DCD3003AC2FD"
+               BuildableName = "MixpanelServiceKitPlugin.loopplugin"
+               BlueprintName = "MixpanelServiceKitPlugin"
+               ReferencedContainer = "container:MixpanelService/MixpanelService.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -224,10 +140,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C136AA2923116E32008A320D"
+               BlueprintIdentifier = "C1E34B5A29C7AD01009A50A5"
+               BuildableName = "MinimedKitPlugin.loopplugin"
+               BlueprintName = "MinimedKitPlugin"
+               ReferencedContainer = "container:MinimedKit/MinimedKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C124021629C7D93D00B32844"
                BuildableName = "OmniKitPlugin.loopplugin"
                BlueprintName = "OmniKitPlugin"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
+               ReferencedContainer = "container:OmniKit/OmniKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -242,6 +172,20 @@
                BuildableName = "OmniBLEPlugin.loopplugin"
                BlueprintName = "OmniBLEPlugin"
                ReferencedContainer = "container:OmniBLE/OmniBLE.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E6007862D0C5D0C00B186D1"
+               BuildableName = "DanaKitPlugin.loopplugin"
+               BlueprintName = "DanaKitPlugin"
+               ReferencedContainer = "container:DanaKit/DanaKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -270,6 +214,20 @@
                BuildableName = "LogglyServiceKitPlugin.loopplugin"
                BlueprintName = "LogglyServiceKitPlugin"
                ReferencedContainer = "container:LogglyService/LogglyService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A94AE4E3235A89B5005CA320"
+               BuildableName = "TidepoolServiceKitPlugin.loopplugin"
+               BlueprintName = "TidepoolServiceKitPlugin"
+               ReferencedContainer = "container:TidepoolService/TidepoolService.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -322,6 +280,62 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C17F511C291EACCD00555EB5"
+               BuildableName = "G7SensorPlugin.loopplugin"
+               BlueprintName = "G7SensorPlugin"
+               ReferencedContainer = "container:G7SensorKit/G7SensorKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B40BF25D23ABD47400A43CEE"
+               BuildableName = "LibreTransmitterPlugin.loopplugin"
+               BlueprintName = "LibreTransmitterPlugin"
+               ReferencedContainer = "container:LibreTransmitter/LibreTransmitter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C1BDBAE72A4397E200A787D1"
+               BuildableName = "LibreDemoPlugin.loopplugin"
+               BlueprintName = "LibreDemoPlugin"
+               ReferencedContainer = "container:LibreTransmitter/LibreTransmitter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A936A97325BC9A230085119C"
+               BuildableName = "LoopSupportPlugin.loopplugin"
+               BlueprintName = "LoopSupportPlugin"
+               ReferencedContainer = "container:LoopSupport/LoopSupport.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "A936A8F625BC99470085119C"
                BuildableName = "LoopOnboardingPlugin.loopplugin"
                BlueprintName = "LoopOnboardingPlugin"
@@ -337,9 +351,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9BAC72626CDB7A5001C9493"
-               BuildableName = "NightscoutAPIClientPlugin.loopplugin"
-               BlueprintName = "NightscoutAPIClientPlugin"
-               ReferencedContainer = "container:NightscoutAPIClient/NightscoutAPIClient.xcodeproj">
+               BuildableName = "NightscoutRemoteCGMPlugin.loopplugin"
+               BlueprintName = "NightscoutRemoteCGMPlugin"
+               ReferencedContainer = "container:NightscoutRemoteCGM/NightscoutRemoteCGM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -358,6 +372,20 @@
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "14B1735B28AED9EC006CCD7C"
+               BuildableName = "Loop Widget Extension.appex"
+               BlueprintName = "Loop Widget Extension"
+               ReferencedContainer = "container:Loop/Loop.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
@@ -368,6 +396,34 @@
                BuildableName = "OmniBLETests.xctest"
                BlueprintName = "OmniBLETests"
                ReferencedContainer = "container:OmniBLE/OmniBLE.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A91BAC2322BC691A00ABF1BB"
+               BuildableName = "NightscoutServiceKitTests.xctest"
+               BlueprintName = "NightscoutServiceKitTests"
+               ReferencedContainer = "container:NightscoutService/NightscoutService.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "431CE7761F98564200255374"
+               BuildableName = "RileyLinkBLEKitTests.xctest"
+               BlueprintName = "RileyLinkBLEKitTests"
+               ReferencedContainer = "container:RileyLinkKit/RileyLinkKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -401,60 +457,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C10D9BC91C8269D500378342"
-               BuildableName = "MinimedKitTests.xctest"
-               BlueprintName = "MinimedKitTests"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1B383131CD0665D00CE7782"
-               BuildableName = "NightscoutUploadKitTests.xctest"
-               BlueprintName = "NightscoutUploadKitTests"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "431CE7761F98564200255374"
-               BuildableName = "RileyLinkBLEKitTests.xctest"
-               BlueprintName = "RileyLinkBLEKitTests"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "432B0E911CDFC3C50045347B"
-               BuildableName = "ShareClientTests.xctest"
-               BlueprintName = "ShareClientTests"
-               ReferencedContainer = "container:dexcom-share-client-swift/ShareClient.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "43CABDFC1C3506F100005705"
                BuildableName = "CGMBLEKitTests.xctest"
                BlueprintName = "CGMBLEKitTests"
                ReferencedContainer = "container:CGMBLEKit/CGMBLEKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43E2D8D01D20BF42004DA55F"
-               BuildableName = "DoseMathTests.xctest"
-               BlueprintName = "DoseMathTests"
-               ReferencedContainer = "container:Loop/Loop.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -471,10 +477,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1FFAF7F213323CC00C50C1D"
-               BuildableName = "OmniKitTests.xctest"
-               BlueprintName = "OmniKitTests"
-               ReferencedContainer = "container:rileylink_ios/RileyLink.xcodeproj">
+               BlueprintIdentifier = "1DEE226824A676A300693C32"
+               BuildableName = "LoopKitHostedTests.xctest"
+               BlueprintName = "LoopKitHostedTests"
+               ReferencedContainer = "container:LoopKit/LoopKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -495,6 +501,56 @@
                BuildableName = "MockKitTests.xctest"
                BlueprintName = "MockKitTests"
                ReferencedContainer = "container:LoopKit/LoopKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A91BAC2322BC691A00ABF1BB"
+               BuildableName = "NightscoutServiceKitTests.xctest"
+               BlueprintName = "NightscoutServiceKitTests"
+               ReferencedContainer = "container:NightscoutService/NightscoutService.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C17F50CD291EAC3800555EB5"
+               BuildableName = "G7SensorKitTests.xctest"
+               BlueprintName = "G7SensorKitTests"
+               ReferencedContainer = "container:G7SensorKit/G7SensorKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C13CC34029C7B73A007F25DE"
+               BuildableName = "MinimedKitTests.xctest"
+               BlueprintName = "MinimedKitTests"
+               ReferencedContainer = "container:MinimedKit/MinimedKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C12ED9C929C7DBA900435701"
+               BuildableName = "OmniKitTests.xctest"
+               BlueprintName = "OmniKitTests"
+               ReferencedContainer = "container:OmniKit/OmniKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "431CE7761F98564200255374"
+               BuildableName = "RileyLinkBLEKitTests.xctest"
+               BlueprintName = "RileyLinkBLEKitTests"
+               ReferencedContainer = "container:RileyLinkKit/RileyLinkKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -526,15 +582,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5085266D1E52FDC000D611F4"
-            BuildableName = "MKRingProgressView.framework"
-            BlueprintName = "MKRingProgressView"
-            ReferencedContainer = "container:MKRingProgressView/MKRingProgressView.xcodeproj">
+            BlueprintIdentifier = "43776F8B1B8022E90074EA36"
+            BuildableName = "Loop.app"
+            BlueprintName = "Loop"
+            ReferencedContainer = "container:Loop/Loop.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
